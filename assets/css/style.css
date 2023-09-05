@@ -1,0 +1,72 @@
+*,
+* ::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1e6dc;
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    padding: 0;
+  
+    
+}
+.texto-encima{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 99px;
+    margin-top: 15px;
+}
+.centrado{
+    position: absolute;
+    bottom: 300px;
+    margin-left: 99px;
+    display: flex;
+    text-align: left;
+    color: aliceblue;
+    font-family: serif;
+    font-size: 50px;
+    width:50%;
+}
+
+.btn{
+    cursor: pointer;
+    position: absolute;
+    border: 10px;
+    bottom: 200px;
+    margin-left: 99px;
+    border-radius: 2px;
+    background-color: rgb(225, 135, 18);
+    width: 9%;
+    color: rgb(250, 251, 252);
+    padding: 10px;
+    
+   
+}
+.contenedor-2{
+    display: flex; /* Esto crea un contenedor flexible para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    justify-content: center;
+    gap: 5px;
+    margin-left:  6git px;
+}
+.bloque1{
+    flex: 1; /* Hace que el espacio del texto se expanda para llenar el espacio restante */
+  padding: 10px; /* Añade espaciado alrededor del texto */
+  margin: 4px;
+}
+
+.bloque2{
+    flex: 1; /* Hace que el espacio de la imagen se expanda para llenar el espacio restante */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
