@@ -18,6 +18,7 @@ body{
   
     
 }
+
 .texto-encima{
     position: absolute;
     top: 60px;
@@ -26,6 +27,7 @@ body{
     font-size: 15px;
     margin-left: 99px;
     margin-top: 15px;
+    text-shadow: 6px 9px 5px  rgb(6, 2, 2);
 }
 .centrado{
     position: absolute;
@@ -37,6 +39,7 @@ body{
     font-family: serif;
     font-size: 50px;
     width:50%;
+    text-shadow: 5px 5px 5px  rgb(6, 2, 2);
 }
 
 .btn{
@@ -47,26 +50,93 @@ body{
     margin-left: 99px;
     border-radius: 2px;
     background-color: rgb(225, 135, 18);
-    width: 9%;
     color: rgb(250, 251, 252);
     padding: 10px;
+    font-size:20px ;
     
-   
 }
+
+.opacity{
+    /*puede afectar el rendimiento de algunos navegadores */
+    image-rendering: -webkit-optimize-contrast; /* Safari, Chrome */
+    image-rendering: pixelated; /* Firefox */
+    image-rendering: optimizeQuality; /* Otros navegadores */
+}
+/*hoja 2*/
 .contenedor-2{
     display: flex; /* Esto crea un contenedor flexible para alinear los elementos */
     align-items: center; /* Centra verticalmente los elementos en el contenedor */
     justify-content: center;
-    gap: 5px;
-    margin-left:  6git px;
+    margin-top: 80px;
+    gap: 15px;
+ 
 }
+/* div - texto izquierdo*/
 .bloque1{
     flex: 1; /* Hace que el espacio del texto se expanda para llenar el espacio restante */
-  padding: 10px; /* Añade espaciado alrededor del texto */
-  margin: 4px;
+  padding: 4px; /* Añade espaciado alrededor del texto */
+ margin: 90px;
+  width: 50%;
 }
 
+  .subtitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44px;
+  }
+
+/* div - texto derecho*/
 .bloque2{
     flex: 1; /* Hace que el espacio de la imagen se expanda para llenar el espacio restante */
     text-align: right; /* Alinea la imagen a la derecha */
+}
+.silla{
+display: flex;
+}
+
+/*paghome3*/
+
+.contenedor3{
+    position: relative;
+    display: inline-block;
+
+    
+}
+.btn-2{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 99px;
+    background-color: rgb(222, 129, 6);
+    color: rgb(250, 251, 252);
+    padding: 10px;
+    font-size:20px ;
+    bottom:15px ;
+
+}
+
+/* foto artiulos*/
+.sub_container {
+    width: 15px;
+    gap: 10px;
+    height: 15px;
+    display: flex;
+    text-align: right;
+
+}
+    
+
+    
+
+.sub_container1{
+    display: flex;
+    align-items: center;
+    margin-left:700px;
+    width: 350px;
+    height: 355px;
+    
+
+
+}
+.sub_container2{
+    width: 15px;
+    height: 40px;
 }
