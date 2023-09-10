@@ -69,6 +69,7 @@ body{
     justify-content: center;
     margin-top: 80px;
     gap: 15px;
+    float: left;
  
 }
 /* div - texto izquierdo*/
@@ -97,7 +98,8 @@ display: flex;
 
 .contenedor3{
     position: relative;
-    display: inline-block;
+    float: left;
+    display: flex;
 
     
 }
@@ -113,30 +115,51 @@ display: flex;
 
 }
 
+/* space of section*/
+
 /* foto artiulos*/
-.sub_container {
-    width: 15px;
-    gap: 10px;
-    height: 15px;
-    display: flex;
-    text-align: right;
 
-}
-    
-
-    
 
 .sub_container1{
-    display: flex;
-    align-items: center;
-    margin-left:700px;
-    width: 350px;
-    height: 355px;
-    
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left:300px;
+    gap: 15px;
+}
 
-
+.img-1{
+    margin-left: 301px;
+    gap: 1px;
+}
+ 
+.subtexto1{
+    margin-left: 301px ;
 }
 .sub_container2{
-    width: 15px;
-    height: 40px;
+    width: 248px;
+    height: 250px;
+     margin-left: 55px;
+     
+
 }
+.img-2{
+    margin-left: 55px;
+}
+.subtexto2{
+    margin-left: 55px;
+    display: block;
+    width: 250px;
+   
+}
+ 
+.sub_container3{
+    width: 248px;
+    height: 250px;
+    margin-left:55px;
+}
+
+
+
+
+
