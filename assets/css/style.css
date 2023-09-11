@@ -8,7 +8,10 @@
 body{
     background-color: #f1e6dc;
 }
+:root{
+--color-primario: rgb(225, 135, 18);
 
+}
 
 .contenedor{
     position: relative;
@@ -49,7 +52,7 @@ body{
     bottom: 200px;
     margin-left: 99px;
     border-radius: 2px;
-    background-color: rgb(225, 135, 18);
+    background-color:  rgb(225, 135, 18);
     color: rgb(250, 251, 252);
     padding: 10px;
     font-size:20px ;
@@ -94,78 +97,74 @@ body{
 display: flex;
 }
 
-/*paghome3*/
-
-.contenedor3{
-    position: relative;
-    float: left;
+.pag-2{
     display: flex;
+    align-items: center;
+    justify-content: center;
 
-    
 }
-.btn-2{
+
+
+/*paghome3*/
+.contendor-3{
+    flex: 1; /* Hace que el espacio del texto se expanda para llenar el espacio restante */
+    padding: 4px; /* Añade espaciado alrededor del texto */
+   margin: 90px;
+
+ 
+  }
+
+.titulo3{
+ margin-top: 120px;
+ margin-left: 98px;
+ 
+
+}
+.titulo-3-3{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.contenedor-imagenes{
+   display:flex;
+   flex: 1; /* Hace que el espacio de la imagen se expanda para llenar el espacio restante */
+   justify-content: center;
+   margin-left: 546px;
+}
+
+
+.imagen-cucharas{
+    width: 250px;
+}
+.sub-parrafo-1{
+    width: 18rem;
+}
+
+.imagen-sillas{
+    width: 269px;
+}
+.sub-parrafo-2{
+    width: 19rem;
+}
+
+.imagen-ventana
+{
+    width: 227px;
+}
+.sub-parrafo-3{
+    width: 241px;
+}
+
+.bton-3{
     cursor: pointer;
     position: absolute;
+    border: 10px;
     margin-left: 99px;
-    background-color: rgb(222, 129, 6);
+    border-radius: 2px;
+    background-color: var(--color-primario);
     color: rgb(250, 251, 252);
     padding: 10px;
     font-size:20px ;
-    bottom:15px ;
-
+    margin-bottom:25px ;
+    
 }
-
-/* space of section*/
-
-/* foto artiulos*/
-
-
-.sub_container1{
-    width: 250px;
-    height: 250px;
-    float: left;
-    margin-left:300px;
-    gap: 15px;
-}
-
-.img-1{
-    margin-left: 301px;
-    gap: 1px;
-}
- 
-.subtexto1{
-    margin-left: 301px ;
-}
-.sub_container2{
-    width: 248px;
-    height: 250px;
-     margin-left: 55px;
-     
-
-}
-.img-2{
-    margin-left: 55px;
-}
-.subtexto2{
-    margin-left: 55px;
-    display: block;
-    width: 250px;
-   
-}
- 
-.sub_container3{
-    width: 248px;
-    height: 250px;
-    margin-left:55px;
-}
-.img-3{
-  margin-left: 55px;
-}
-
-.subtexto3{
-    margin-left: 55px;
-}
-
-
-
-
